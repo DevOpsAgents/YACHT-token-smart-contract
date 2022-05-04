@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 /*
- Michael LEVY 2022
+ * Michael LEVY 2022
  */
 pragma solidity ^0.8.0;
 
