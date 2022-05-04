@@ -1,8 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 /*
  * EIP-20 Standard Token Smart Contract Interface.
- * Copyright (c) 2018 by STSS (Malta) Limited.
- * Contact: <tech@stasis.net>
  */
 pragma solidity ^0.8.0;
 
