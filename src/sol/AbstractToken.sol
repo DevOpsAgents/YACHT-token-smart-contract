@@ -1,8 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 /*
- * Abstract Token Smart Contract.  Copyright © 2017 by ABDK Consulting.
- * Copyright (c) 2018 by STSS (Malta) Limited.
- * Contact: <tech@stasis.net>
+ Michael LEVY 2022
  */
 pragma solidity ^0.8.0;
 
