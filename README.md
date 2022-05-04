@@ -1,8 +1,8 @@
-# EURS Token Smart Contract #
+# YACHT Token Smart Contract #
 
-EURS Token for Ethereum smart contracts.
+YACHT Token for Ethereum smart contracts.
 
-Copyright © 2021 by STSS (Malta) Limited.
+Copyright © 2022 by Catalano & Cosulich Shipping Service SAM (Monaco).
 
-Contact: <tech@stasis.net>
+Contact: <devops@catalanoshipping.com>
 
