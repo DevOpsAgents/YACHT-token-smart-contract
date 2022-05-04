@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: UNLICENSED
 /*
- * EURS Token Smart Contract.
- * Copyright (c) 2018 by STSS (Malta) Limited.
- * Contact: <tech@stasis.net>
+ * YACHT Token Smart Contract.
+ * Copyright (c) 2022 by AGents - Catalano & Cosulich Shipping Service SAM (Monaco).
+ * Contact: <devops@catalanoshipping.com>
  */
 pragma solidity ^0.8.0;
 
 import "./AbstractToken.sol";
 
 /**
- * EURS Token Smart Contract: EIP-20 compatible token smart contract that
- * manages EURS tokens.
+ * YACHT Token Smart Contract: EIP-20 compatible token smart contract that
+ * manages YACHT tokens.
  */
-contract EURSToken is AbstractToken {
+contract YACHTToken is AbstractToken {
   /**
    * @dev Fee denominator (0.001%).
    */
@@ -36,7 +36,7 @@ contract EURSToken is AbstractToken {
   uint256 constant internal BLACK_LIST_FLAG = 0x01;
 
   /**
-   * Create EURS Token smart contract with message sender as an owner.
+   * Create YACHT Token smart contract with message sender as an owner.
    */
   constructor () {
     owner = msg.sender;
@@ -48,7 +48,7 @@ contract EURSToken is AbstractToken {
    * @return name of the token
    */
   function name () public pure returns (string memory) {
-    return "STASIS EURS Token";
+    return "AGents YACHT Token";
   }
 
   /**
@@ -57,7 +57,7 @@ contract EURSToken is AbstractToken {
    * @return symbol of the token
    */
   function symbol () public pure returns (string memory) {
-    return "EURS";
+    return "YACHT";
   }
 
   /**
